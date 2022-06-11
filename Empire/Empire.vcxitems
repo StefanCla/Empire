@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{582f00ee-e3b6-456c-9bf3-76c165f99b6c}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Bullet\BulletDebugDraw.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\AIController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\EmpireController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\PlayerController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FileHandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSM.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSMBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSMObjectBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameContext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\CarrierVessel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\DiscoveryVessel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\Planet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\SupplyVessel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\Vessel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Generator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Menu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuGameState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuGenerateState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuStartState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\Geometry.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\Model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\ModelManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetActiveState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetConversionState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetInactiveState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Precomp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Random.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\IndexBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\Renderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\VertexArray.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\VertexBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ShipManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\stb_image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Textures\Texture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Textures\TextureManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Threading\ThreadPool.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Timer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\tiny_obj_loader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imgui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imgui_internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_rectpack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_textedit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_demo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_draw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_tables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Bullet\BulletDebugDraw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\AIController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\EmpireController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\PlayerController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FileHandler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FSM\FSM.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FSM\FSMBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameContext.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\CarrierVessel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\DiscoveryVessel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\Planet.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\SupplyVessel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\Vessel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Generator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Menu.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuGameState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuGenerateState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuStartState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\Geometry.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\Model.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\ModelManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetActiveState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetConversionState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetInactiveState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Random.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\IndexBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\Renderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\Shader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\VertexArray.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\VertexBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\ShipManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Textures\Texture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Textures\TextureManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Threading\ThreadPool.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="$(MSBuildThisFileDirectory)Resources\Fonts\DroidSans.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_01.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_01_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_02.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_02_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_03.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_03_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Planet_High_Res.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Planet_Medium_Res.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Back.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Top.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Front.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Left.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Right.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\BtDebug.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\BtDebug.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Default.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Default.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Phong.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Phong.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Skybox.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Skybox.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </Object>
+  </ItemGroup>
+</Project>

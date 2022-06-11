@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8a98e7a0-b0ab-4b6a-ae16-2c2e9c900e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{247a9e13-f86e-4b1e-99c8-7d80df29be4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b5ff11b2-86a7-4164-a940-d812b0958442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dear ImGui">
+      <UniqueIdentifier>{b5b5c0da-d2cf-45b7-bc1d-3562754f48bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{e9d58ff3-2b6f-4c3c-ac3e-c715e9f16da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{a13937b2-b5e1-45ac-9ea5-9e87fff8115e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{b0e070c1-9ea8-462a-a67e-d4f2ea2de716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{ad0fe778-2990-4046-881e-f332a0c0eed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{c7e39395-6019-4afa-b471-3f77c05f1db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{fd971da1-9c1b-4822-ac0c-939e47685961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{fcf428f0-8024-4765-a116-75cde575b04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{615f815b-0c0c-4f2a-bfb3-8b2254f1f9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{22b94fa5-4878-480c-ad54-acd334cdc5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{ff61ea52-87c6-4577-8263-e999442b559c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{429b0037-4e0a-4c56-8323-68f59d032481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSM">
+      <UniqueIdentifier>{b0145947-029f-4e80-9321-6bfe99b7fd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSM">
+      <UniqueIdentifier>{b0008e26-018c-4259-b750-efb70c3b8122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MenuStates">
+      <UniqueIdentifier>{5211a032-5e69-4d66-ab7e-473e8d8aa0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MenuStates">
+      <UniqueIdentifier>{acfafaba-85e5-45ae-aee6-19261dedfa33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{03c1155e-eaca-466b-b51c-5566a8f4ecfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlanetStates">
+      <UniqueIdentifier>{c4741554-3583-4d12-abd4-64375a5b2f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlanetStates">
+      <UniqueIdentifier>{2c637fbe-5518-44be-bc3a-d54bf4d1b0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threading">
+      <UniqueIdentifier>{5474e83d-d4de-4a31-befe-e8f8da3e13a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threading">
+      <UniqueIdentifier>{8090b80f-72d3-4a66-a4f5-858e057f5b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{ceab534e-4f34-4f84-b769-3de92ae5f0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{9436c5fb-6c6a-4441-9d62-9b0d918edbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\Skybox">
+      <UniqueIdentifier>{a16012f4-66e3-4659-96d0-23b098bd0954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{57027d93-b8c8-4464-bd5d-283cd8934d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullet">
+      <UniqueIdentifier>{0166d0a5-8931-4993-9176-526b253e6082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imconfig.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imgui.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imgui_internal.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_rectpack.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_textedit.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui\imstb_truetype.h">
+      <Filter>Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\IndexBuffer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\Shader.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\VertexArray.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Renderer\VertexBuffer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Textures\Texture.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Textures\TextureManager.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\Geometry.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\Model.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Models\ModelManager.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\Planet.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSM.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSMBase.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\FSM\FSMObjectBase.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuGameState.h">
+      <Filter>Header Files\MenuStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuGenerateState.h">
+      <Filter>Header Files\MenuStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MenuStates\MenuStartState.h">
+      <Filter>Header Files\MenuStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetActiveState.h">
+      <Filter>Header Files\PlanetStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetInactiveState.h">
+      <Filter>Header Files\PlanetStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetStates\PlanetConversionState.h">
+      <Filter>Header Files\PlanetStates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlanetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Threading\ThreadPool.h">
+      <Filter>Header Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\EmpireController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\PlayerController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Controllers\AIController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\SupplyVessel.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ShipManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\CarrierVessel.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\DiscoveryVessel.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\GameObjects\Vessel.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Bullet\BulletDebugDraw.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui.cpp">
+      <Filter>Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_demo.cpp">
+      <Filter>Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_draw.cpp">
+      <Filter>Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_tables.cpp">
+      <Filter>Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui\imgui_widgets.cpp">
+      <Filter>Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\IndexBuffer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\Shader.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\VertexArray.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Renderer\VertexBuffer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Textures\Texture.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Textures\TextureManager.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\Geometry.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\Model.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Models\ModelManager.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\Planet.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FSM\FSM.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\FSM\FSMBase.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuStartState.cpp">
+      <Filter>Source Files\MenuStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuGenerateState.cpp">
+      <Filter>Source Files\MenuStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\MenuStates\MenuGameState.cpp">
+      <Filter>Source Files\MenuStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetActiveState.cpp">
+      <Filter>Source Files\PlanetStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetInactiveState.cpp">
+      <Filter>Source Files\PlanetStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetStates\PlanetConversionState.cpp">
+      <Filter>Source Files\PlanetStates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\PlanetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Threading\ThreadPool.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\EmpireController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\AIController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Controllers\PlayerController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\SupplyVessel.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\ShipManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\CarrierVessel.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\DiscoveryVessel.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\GameObjects\Vessel.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sources\Bullet\BulletDebugDraw.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="$(MSBuildThisFileDirectory)Resources\Fonts\DroidSans.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_01.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_01_em.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_02.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_02_em.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_03.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\brian_03_em.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Back.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Top.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Front.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Left.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Right.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Skybox\Skybox_Bottom.png">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Planet_Medium_Res.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Planet_High_Res.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Default.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Default.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Phong.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Phong.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Skybox.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\Skybox.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\BtDebug.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\BtDebug.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.obj">
+      <Filter>Resource Files\Models</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.obj">
+      <Filter>Resource Files\Models</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.obj">
+      <Filter>Resource Files\Models</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
